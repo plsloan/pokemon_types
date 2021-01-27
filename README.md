@@ -1,14 +1,11 @@
-# Electron - React - Flask Boilerplate
+# Pokemon Types
 
-This repo is meant to be a template for creating a desktop application with Electron, React, and Flask.
+This was meant to be my introduction into Electron. It was an app built with the intention of running it locally and building an .exe file using [electron-packager](https://github.com/electron/electron-packager).
 
-## Steps to Run
+## Running the App
 
-1. Clone repo
-2. Run `npm install` at the project root
-3. Create python virtual environment
-    1. Navigate to /src/api
-    2. Run create-virtual-environment.cmd script
-4. Start React with `npm run start:react` at the project root
-5. In a new terminal, start Electron with `npm run start:electron` at the project root
-6. In a new terminal, start Flask with `npm run start:flask` at the project root
+The exe file is included in this repo, or you can run it using the following commands...
+
+1. `npm run start:react`
+2. `npm run start:flask`
+3. `npm run start:electron`
